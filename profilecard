@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color:  #1b1b2f;
+        }
+        .card {
+          background-color: #162447;
+          padding: 29px 12px;
+          box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+          border-radius: 4px;
+        }
+        
+        .title {
+          color: grey;
+          font-size: 18px;
+        }
+        
+        button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        
+        .card .round2 {
+         background-color: #1b1b2f;
+         border: 1px solid #03BFCB;
+         border-radius: 3px;
+         color: #03BFCB;
+         font-family: verdana;
+         font-weight: bold;
+         padding: 10px 25px;
+        }
+
+        .card-container {
+         background-color:#162447;
+         border-radius: none;
+         box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+         color: #B3B8CD;
+         padding-top: 30px;
+         position: relative;
+         width: 350px;
+         max-width: 100%;
+        text-align: center;
+        }
+
+        a {
+          text-decoration: none;
+          font-size: 22px;
+          color: black;
+        }
+        
+        button:hover, a:hover {
+          opacity: 0.7;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="card-header">            
+            <div class="card">
+              <div class="card-container"></div>
+              <img src="io9.jpg" alt="John" style="width: 100%;">
+              <h1>Bravo</h1>
+              <p class="title">profile-card</p>
+              <p>22.12.2006</p>
+              <div style="margin: 24px 0;">
+                <a href="#" target="_blank" ><i class="fa fa-instagram" style="color: aqua; width: 30px;" ></i></a>  
+                <a href="#" target="_blank" ><i class="fa fa-github " style="color: aqua; width: 30px;" ></i></a>  
+                <a href="#" target="_blank" ><i class="fa fa-facebook" style="color: aqua; width: 30px; "></i></a>  
+              </div>
+              <a href="#" target="_blank" ><button class="round2">Contact</button></a>
+              <!-- https://web.telegram.org/#/im?p=@jazzlii -->
+              <!-- https://api.whatsapp.com/send/?phone=62881026391867&text&app_absent=0 -->
+              <!-- https://www.instagram.com/aal1_bm/ -->
+              <!-- https://github.com/bravo-me -->
+              <!-- https://www.facebook.com/profile.php?id=100057392825772 -->
+            </div>
+          </div>
+       </div>
+    </body>
+    </html>
